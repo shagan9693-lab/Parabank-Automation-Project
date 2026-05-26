@@ -1,0 +1,19 @@
+[
+    {
+        "inputtype":"Valid Input",
+        "username":"Vel",
+        "password":"Summer@01"
+    },
+     
+    {
+        "inputtype":"Invalid Input",
+        "username":"Ramesh",
+        "password":"Summer@01"
+    },
+
+     {
+        "inputtype":"Empty Input",
+        "username":"",
+        "password":""
+    }
+]

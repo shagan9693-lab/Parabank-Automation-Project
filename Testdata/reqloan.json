@@ -1,0 +1,23 @@
+[
+    {
+        "Testid":1,
+        "loanamount":100,
+        "downpayment":10,
+        "fromacc":0
+    },
+
+     {
+        "Testid":2,
+        "loanamount":1000,
+        "downpayment":110,
+        "fromacc":1
+    },
+
+    {
+      "Testid":3,
+        "loanamount":150,
+        "downpayment":5,
+        "fromacc":0
+    }
+     
+]

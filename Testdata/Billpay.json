@@ -1,0 +1,78 @@
+[
+    {
+        "testid":1,
+        "inputtype":"Valid",
+"payeename":"Ganesh",
+"address":"gandhi nagar",
+"city":"chennai",
+"state":"tamilnadu",
+"zipcode":"600092",
+"phone":"9089090890",
+"account":"345345",
+"verifyaccount":"345345",
+"amount":"1",
+"fromaccount":0
+},
+
+ {
+        "testid":2,
+        "inputtype":"Valid",
+"payeename":"Shanku",
+"address":"gandhi nagar",
+"city":"chennai",
+"state":"tamilnadu",
+"zipcode":"600092",
+"phone":"9089090890",
+"account":"67890",
+"verifyaccount":"67890",
+"amount":"3",
+"fromaccount":1
+},
+ {
+        "testid":3,
+        "inputtype":"Valid",
+"payeename":"Kaali",
+"address":"gandhi nagar",
+"city":"chennai",
+"state":"tamilnadu",
+"zipcode":"600092",
+"phone":"9089090890",
+"account":"12345",
+"verifyaccount":"12345",
+"amount":"5",
+"fromaccount":0
+},
+
+{
+        "testid":"4",
+        "inputtype":"Empty",
+"payeename":"",
+"address":"",
+"city":"",
+"state":"",
+"zipcode":"",
+"phone":"",
+"account":"",
+"verifyaccount":"",
+"amount":"",
+"fromaccount":0
+},
+{
+       
+        "testid":5,
+        "inputtype":"Invalid Account from dropdown",
+"payeename":"Kaali",
+"address":"gandhi nagar",
+"city":"chennai",
+"state":"tamilnadu",
+"zipcode":"600092",
+"phone":"9089090890",
+"account":"12345",
+"verifyaccount":"12345",
+"amount":"5",
+"fromaccount":100
+}
+
+
+
+]

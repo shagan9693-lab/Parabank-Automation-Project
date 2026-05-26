@@ -4,31 +4,34 @@ module.exports = defineConfig({
   testDir: './tests',
 
   timeout: 30000,
-  //retries:2,
-  reporter: [['allure-playwright']],
+  retries: 0, // ✅ Retry failed tests once
+
+  reporter: [
+    ['list'],
+    ['allure-playwright']
+  ],
 
   use: {
-    headless: false,
+    headless: true,
     baseURL: 'https://example.com',
+
+    actionTimeout: 15000,
+    navigationTimeout: 30000,
+
+    screenshot: 'only-on-failure',
+    trace: 'retain-on-failure',
+    video: 'off',
+
+    ignoreHTTPSErrors: true // ✅ optional but helpful in CI
   },
 
   projects: [
     {
-      name: 'Chromium',
-      use: { browserName: 'chromium',
-      viewport:null,
-      launchOptions:{args:['--start-maximized']},
-      screenshot:"off",
-      trace:"on",
-      video:"on"
-    }},
-    /*{
-      name: 'Firefox',
-      use: { browserName: 'firefox' },
-    },
-    {
-      name: 'WebKit',
-      use: { browserName: 'webkit' },
-    },*/
+      name: 'chromium',
+      use: {
+        browserName: 'chromium',
+        ignoreHTTPSErrors: true
+      }
+    }
   ],
 });

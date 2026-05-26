@@ -1,0 +1,21 @@
+[
+    {
+        "VerifyTrx":"Verify Trx By particular date",
+        "selectacc":0,
+        "findbydate":"05-26-2026"
+    },
+
+     {
+        "VerifyTrx":"Verify Trx By Date Range",
+        "selectacc":1,
+        "findbyfromdate":"05-21-2026",
+        "findbytodate":"05-26-2026"
+    },
+
+    {
+        "VerifyTrx":"Verify Trx By Amount",
+        "selectacc":0,
+        "findbyamount":"5"
+    }
+     
+]

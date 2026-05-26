@@ -1,0 +1,66 @@
+[
+    {
+        "testid":1,
+"firstname":"Ganesh",
+"lastname":"Guruswamy",
+"address":"gandhi nagar",
+"city":"chennai",
+"state":"tamilnadu",
+"zipcode":"600092",
+"phone":"9089090890",
+"ssn":"123456789",
+"username":"Vel",
+"password":"Summer@01",
+"confirmpw":"Summer@01",
+"errormsg":"No"   
+},
+
+ {
+    "testid":2,
+"firstname":"Ganesh",
+"lastname":"Guruswamy",
+"address":"gandhi nagar",
+"city":"chennai",
+"state":"tamilnadu",
+"zipcode":"600092",
+"phone":"9089090890",
+"ssn":"123456789",
+"username":"Ganesh",
+"password":"Summer@01",
+"confirmpw":"",
+"errormsg":"Generic Failure Error Msg" 
+},
+
+{
+    "testid":3,
+"firstname":"",
+"lastname":"",
+"address":"",
+"city":"",
+"state":"",
+"zipcode":"",
+"phone":"",
+"ssn":"",
+"username":"",
+"password":"",
+"confirmpw":"",
+"errormsg":"Empty Input" 
+},
+
+   {
+    "testid":4,
+"firstname":"Ganesh",
+"lastname":"Guruswamy",
+"address":"gandhi nagar",
+"city":"chennai",
+"state":"tamilnadu",
+"zipcode":"600092",
+"phone":"9089090890",
+"ssn":"123456789",
+"username":"Ganesh",
+"password":"Summer@01",
+"confirmpw":"Summer@0111111",
+"errormsg":"Wrong Confirm Password Err"
+}
+
+]
