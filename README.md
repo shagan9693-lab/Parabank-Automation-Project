@@ -11,3 +11,7 @@ This repository contains Playwright test automation for the ParaBank application
 4. Generate report: `allure generate allure-results --clean -o allure-report`
 5. Open report: `allure open allure-report`
 
+
+<img width="960" height="504" alt="image" src="https://github.com/user-attachments/assets/be7c28dc-788e-4642-85c7-7b794607f11e" />
+
+
