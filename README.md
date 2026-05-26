@@ -1,7 +1,8 @@
 # ParaBank-Playwright-Automation
 
 End-to-End Banking automation using Playwright | POM |Allure reports | 21 tests | 100% Pass rate
-This repository contains Playwright test automation for the ParaBank application.  
+This repository contains Playwright test automation for the ParaBank application. 
+✅ Built as a portfolio project to demonstrate end to end to test automation skills using Playwright with POM architecture.
 ✅ Modules automated: Registration, Login, Dashboard, Account Opening, Fund Transfer, Bill Payments, Transaction Search, Loan Request, Logout.  
 ✅ Validations: Functional checks, account balances, transaction logs, and error handling.  
 
